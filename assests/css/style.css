@@ -1,0 +1,34 @@
+ body {
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Kylo.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+ 
+ h1 {
+     color: white;
+     font-family: 'Nobile', Helvetica, Arial, sans-serif;
+     text-shadow: 1px 1px 1px #ccc;
+     letter-spacing: 3px;
+     line-height: 1.8;
+     word-spacing: 5px;
+ }
+ 
+ .container {
+     color: white;
+     font-family: 'Nobile', Helvetica, Arial, sans-serif;
+     text-shadow: 2px 2px 2px #ccc;
+     letter-spacing: 3px;
+     line-height: 1.8;
+     word-spacing: 5px;
+ }
+ 
+ .character-img {
+     width: 100px;
+ }
+ 
+ .character {
+     display: inline-block;
+     padding-left: 20px;
+ }
