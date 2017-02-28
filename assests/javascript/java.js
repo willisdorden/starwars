@@ -106,7 +106,7 @@ $(document).ready(function() {
             //console.log(currentEnemyHealth)
             var enemyCounterMessage = currentEnemy + " Counter attacks by " + currentEnemycounter;
             //console.log(enemyCounterMessage)
-            var increment = (currentPlayerAttack + currentPlayerAttack);
+            var increment = (currentPlayerAttack += currentPlayerAttack);
 
             console.log(increment)
 
